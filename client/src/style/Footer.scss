@@ -1,0 +1,36 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.footer-link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+    color: #666;
+    text-decoration: none !important;
+    a.footer-links:hover {
+        cursor: pointer;
+        color: #666;
+        font-size: larger;
+    }
+}
+
+.navi-container {
+    font-size: 32px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img.desaturate {
+        filter: grayscale(100%);
+    }
+}
+
+.contact-header {
+    margin-top: 50px;
+}

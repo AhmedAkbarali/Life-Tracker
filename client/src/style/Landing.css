@@ -1,0 +1,11 @@
+.landing {
+    padding-top: 100%;
+}
+
+.landing-button {
+    background: transparent;
+    border-color: white;
+    border-width: 1.5px;
+    padding: 5px;
+    font-weight: bold;
+}
